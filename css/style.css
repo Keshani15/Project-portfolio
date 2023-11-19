@@ -126,3 +126,33 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 576px) {
+  h1,
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .col-sm-4 {
+    width: 100%;
+    padding: 10px 30px;
+  }
+}
